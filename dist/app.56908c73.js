@@ -5548,8 +5548,13 @@ var barInterval = setInterval(function () {
       left: "1000%"
     });
     _gsap.gsap.to(".loading__text, .loading__counter", {
-      duration: 1,
+      duration: 0.5,
       opacity: 0
+    });
+    _gsap.gsap.to(".loading__box", {
+      duration: 1,
+      height: "500px",
+      borderRadius: "50%"
     });
   }
 }, 30);
