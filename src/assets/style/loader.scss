@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import './index.scss';
 .loading{
     position: fixed;
     top: 0;
@@ -16,9 +17,9 @@
         position: relative;
         width: 500px;
         height: 200px;
-        border: 3px solid #6cff8d;
-        border-top: 3px solid #6cff8c7a;
-        border-bottom: 3px solid #6cff8c7a;
+        border: 3px solid $green-color;
+        border-top: 3px solid $dark-green-color;
+        border-bottom: 3px solid $dark-green-color;
     }
     &__bar{
         width: 90%;
@@ -33,7 +34,7 @@
             height: 100%;
             width: 50%;
             border-radius: 2px;
-            background: #6cff8d;
+            background: $green-color;
         }
     }
 
@@ -56,7 +57,7 @@
             @keyframes pulse {
                 from{
                     opacity: 0;
-                    background: #6cff8d;
+                    background: $green-color;
                 } to{
                     opacity: 1;
                 }
@@ -65,7 +66,7 @@
         &--border{
             width: 85%;
             height: 1px;
-            background: #6cff8c7a;
+            background: $dark-green-color;
             position: absolute;
             bottom: 0;
             left: 50%;
@@ -85,7 +86,7 @@
         justify-content: space-between;
         padding: 10px;
         &--number{
-            color: #6cff8d;
+            color: $green-color;
             padding-right: 20px;
         }
     }
