@@ -132,6 +132,17 @@ img, video, canvas, svg {
   color: #6cff8d;
   padding-right: 20px;
 }
+.loading__width_animation {
+  animation: width_animation 1s forwards;
+}
+@keyframes width_animation {
+  0% {
+    width: 85%;
+  }
+  100% {
+    width: 250px;
+  }
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 * {
   box-sizing: border-box;
