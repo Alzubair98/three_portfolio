@@ -60,8 +60,33 @@
                 } to{
                     opacity: 1;
                 }
-                
             }
+        }
+        &--border{
+            width: 85%;
+            height: 1px;
+            background: #6cff8c7a;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__counter{
+        position: absolute;
+        top: 70%;
+        left: 0;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        &--number{
+            color: #6cff8d;
+            padding-right: 20px;
         }
     }
 }

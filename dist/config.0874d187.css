@@ -64,5 +64,31 @@
     opacity: 1;
   }
 }
+.loading__text--border {
+  width: 85%;
+  height: 1px;
+  background: rgba(108, 255, 140, 0.4784313725);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.loading__counter {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.loading__counter--number {
+  color: #6cff8d;
+  padding-right: 20px;
+}
 
 /*# sourceMappingURL=/config.0874d187.css.map */
