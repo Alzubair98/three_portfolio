@@ -143,6 +143,14 @@ img, video, canvas, svg {
     width: 250px;
   }
 }
+.loading__svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  opacity: 0;
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 * {
   box-sizing: border-box;

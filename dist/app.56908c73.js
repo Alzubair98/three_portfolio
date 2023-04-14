@@ -5556,6 +5556,15 @@ var barInterval = setInterval(function () {
       height: "500px",
       borderRadius: "50%"
     });
+    _gsap.gsap.to(".loading__svg", {
+      duration: 8,
+      opacity: 1,
+      rotate: "360deg"
+    });
+    _gsap.gsap.to(".loading__box", {
+      delay: 2,
+      border: "none"
+    });
   }
 }, 30);
 },{"gsap":"../node_modules/gsap/index.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -5583,7 +5592,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57617" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57999" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
