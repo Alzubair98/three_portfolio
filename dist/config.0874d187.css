@@ -53,6 +53,11 @@ img, video, canvas, svg {
   border-top: 3px solid rgba(108, 255, 140, 0.4784313725);
   border-bottom: 3px solid rgba(108, 255, 140, 0.4784313725);
 }
+@media (max-width: 600px) {
+  .loading__box {
+    width: 90vw;
+  }
+}
 .loading__bar {
   width: 90%;
   height: 10px;
@@ -78,6 +83,11 @@ img, video, canvas, svg {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 600px) {
+  .loading__text {
+    font-size: 17px;
+  }
 }
 .loading__text--dot {
   width: 15px;
