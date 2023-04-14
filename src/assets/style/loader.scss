@@ -37,7 +37,7 @@
         border-radius: 2px;
         &--inner{
             height: 100%;
-            width: 50%;
+            width: 0;
             border-radius: 2px;
             background: $green-color;
         }
@@ -111,5 +111,6 @@
             }
         }
     }
+    
 }
 
