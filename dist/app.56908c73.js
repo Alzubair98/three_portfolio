@@ -5536,15 +5536,20 @@ var bar = document.querySelector(".loading__bar--inner");
 var precentage = document.querySelector(".loading__counter--number");
 var counter = 0;
 var barInterval = setInterval(function () {
-  bar.style.width = counter + "%";
-  precentage.innerHTML = counter + "%";
+  bar.style.width = counter + "%"; // loading bar
+  precentage.innerHTML = counter + "%"; // loading number
   counter++;
   if (counter === 101) {
     clearInterval(barInterval);
     _gsap.gsap.to(".loading__bar", {
+      // throw the bar away
       duration: 10,
       rotate: "90deg",
       left: "1000%"
+    });
+    _gsap.gsap.to(".loading__text, .loading__counter", {
+      duration: 1,
+      opacity: 0
     });
   }
 }, 30);
