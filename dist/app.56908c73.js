@@ -5565,6 +5565,18 @@ var barInterval = setInterval(function () {
       delay: 2,
       border: "none"
     });
+    _gsap.gsap.to(".loading", {
+      delay: 2,
+      duration: 2,
+      zIndex: 1,
+      background: "transparent",
+      opacity: 0.5
+    });
+    _gsap.gsap.to(".loading__svg", {
+      delay: 2,
+      duration: 100,
+      rotate: "360deg"
+    });
   }
 }, 30);
 },{"gsap":"../node_modules/gsap/index.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
