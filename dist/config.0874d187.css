@@ -231,6 +231,16 @@ ul {
   font-size: 18px;
   font-weight: 700;
 }
+@media (max-width: 1200px) {
+  .landing .header__wrap {
+    width: 100vw;
+  }
+}
+@media (max-width: 650px) {
+  .landing .header__sm {
+    display: none;
+  }
+}
 
 .coolLink {
   position: relative;
@@ -313,6 +323,12 @@ ul {
 }
 .coolButton:hover:after {
   transform: translate3d(0, -5px, 0);
+}
+@media (max-width: 800px) {
+  .coolButton {
+    transform: scale3d(0.7, 0.7, 0.7);
+    font-size: 23px;
+  }
 }
 
 /*# sourceMappingURL=/config.0874d187.css.map */
