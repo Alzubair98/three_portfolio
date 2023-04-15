@@ -242,6 +242,12 @@ ul {
   }
 }
 @media (max-width: 370px) {
+  .landing .header {
+    left: 36%;
+  }
+  .landing .header__warp {
+    gap: 20%;
+  }
   .landing .header .coolLink[data-text=Home] {
     display: none;
   }
