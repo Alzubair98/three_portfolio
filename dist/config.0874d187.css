@@ -31,6 +31,15 @@ img, video, canvas, svg {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
 .loading {
   position: fixed;
   top: 0;
@@ -44,6 +53,7 @@ img, video, canvas, svg {
   display: grid;
   place-items: center;
   font-family: "Josefin Sans", sans-serif;
+  display: none;
 }
 .loading__box {
   position: relative;
@@ -181,6 +191,23 @@ p, h1, h2, h3, h4, h5 {
 
 img, video, canvas, svg {
   max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #111;
+  color: #fff;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=/config.0874d187.css.map */
