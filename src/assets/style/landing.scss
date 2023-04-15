@@ -37,6 +37,11 @@
                 display: none;
             }
         }
+        @media (max-width: 370px){
+            .coolLink[data-text="Home"] {
+                display: none;
+            }
+        }
     }
 }
 

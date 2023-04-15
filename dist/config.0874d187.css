@@ -241,6 +241,11 @@ ul {
     display: none;
   }
 }
+@media (max-width: 370px) {
+  .landing .header .coolLink[data-text=Home] {
+    display: none;
+  }
+}
 
 .coolLink {
   position: relative;
