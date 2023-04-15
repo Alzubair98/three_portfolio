@@ -179,4 +179,43 @@
         }
     }
 }
+.scrollDown{
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    &__wheel{
+        height: 42px;
+        width: 23px;
+        border-radius: 10px;
+        border: 2px solid #fff;
+        &--inner{
+            position: absolute;
+            left: 10px;
+            margin-top: 5px;
+            width: 4px;
+            height: 4px;
+            background: #fff;
+            border-radius: 50%;
+            animation: movingWheel .5s linear infinite;
+            @keyframes movingWheel {
+                0% {
+                    top: 1px;
+                }
+                25%{
+                    top: 2px
+                }
+                50%{
+                    top: 3px;
+                }
+                75%{
+                    top: 2px;
+                }
+                100%{
+                    top: 1px;
+                }
+            }
+        }
+    }
+}
 
