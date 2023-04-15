@@ -5,4 +5,27 @@
     background: #111;
     color: #fff;
     overflow: hidden;
+    .header{
+        position: absolute;
+        top: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        &__wrap{
+            padding: 10px;
+            display: flex;
+            width: 60vw;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__left{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            & li{
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+    }
 }

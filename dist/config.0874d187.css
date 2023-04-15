@@ -209,5 +209,27 @@ ul {
   color: #fff;
   overflow: hidden;
 }
+.landing .header {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.landing .header__wrap {
+  padding: 10px;
+  display: flex;
+  width: 60vw;
+  align-items: center;
+  justify-content: space-between;
+}
+.landing .header__left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.landing .header__left li {
+  font-size: 18px;
+  font-weight: 700;
+}
 
 /*# sourceMappingURL=/config.0874d187.css.map */
