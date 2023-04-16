@@ -508,18 +508,31 @@ ul {
 }
 .intro h4 {
   font-size: 33px;
+  padding: 0;
+  margin: 0;
 }
 .intro h1 {
   font-size: 35px;
   padding: 0;
   margin: 0;
 }
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   .intro h4 {
     font-size: 40px;
   }
   .intro h1 {
     font-size: 55px;
+  }
+}
+@media (min-width: 1200px) {
+  .intro {
+    left: 5%;
+  }
+  .intro h4 {
+    font-size: 50px;
+  }
+  .intro h1 {
+    font-size: 60px;
   }
 }
 
