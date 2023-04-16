@@ -267,12 +267,21 @@
     height: 60%;
     z-index: 2;
     color: #fff;
-    h4{
+    & h4{
         font-size: 33px;
     }
-    h1{
+    & h1{
         font-size: 35px;
         padding: 0;
         margin: 0;
+    }
+
+    @media (min-width: 500px) {
+        & h4{
+            font-size: 40px;
+        }
+        & h1{
+            font-size: 55px;
+        }
     }
 }

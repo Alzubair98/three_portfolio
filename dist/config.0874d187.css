@@ -514,5 +514,13 @@ ul {
   padding: 0;
   margin: 0;
 }
+@media (min-width: 500px) {
+  .intro h4 {
+    font-size: 40px;
+  }
+  .intro h1 {
+    font-size: 55px;
+  }
+}
 
 /*# sourceMappingURL=/config.0874d187.css.map */
