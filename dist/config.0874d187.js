@@ -180,13 +180,18 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\wallpapers\\179.jpg":[["179.7a01b6e9.jpg","assets/images/wallpapers/179.jpg"],"assets/images/wallpapers/179.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/js/config.js":[function(require,module,exports) {
+},{"./..\\images\\wallpapers\\179.jpg":[["179.7a01b6e9.jpg","assets/images/wallpapers/179.jpg"],"assets/images/wallpapers/179.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/skills.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/js/config.js":[function(require,module,exports) {
 "use strict";
 
 require("../style/loader.scss");
 require("../style/index.scss");
 require("../style/landing.scss");
-},{"../style/loader.scss":"assets/style/loader.scss","../style/index.scss":"assets/style/index.scss","../style/landing.scss":"assets/style/landing.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+require("../style/skills.scss");
+},{"../style/loader.scss":"assets/style/loader.scss","../style/index.scss":"assets/style/index.scss","../style/landing.scss":"assets/style/landing.scss","../style/skills.scss":"assets/style/skills.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
